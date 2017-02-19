@@ -8,6 +8,9 @@ A desktop news client built using React and Electron.
 2. Clone forked repository
 3. Setup github upstream `git remote add upstream https://github.com/bkd705/reactnews.git`
 4. Match branches to upstream repository
+5. Change directory into `reactnews`
+6. Run `yarn` to install node_modules
+7. Run `yarn dev` to start dev server in electron application
 
 When making changes, use branches to make changes, never make changes on any of the base branches ( master, development ).
 After making changes on branch, push your changes, merge into `development` then create a pull request detailing your change and why its needed.

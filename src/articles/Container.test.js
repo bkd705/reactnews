@@ -1,7 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import App from './App'
+import ArticleContainer from './Container'
 
 it('renders without crashing', () => {
-  shallow(<App />)
+  shallow(<ArticleContainer />)
 })

@@ -53,6 +53,14 @@ They will not be included in the production build so you can use them for things
 
 In the project directory, you can run:
 
+### `npm dev`
+
+This is going to be the main script you will use.
+This script runs both the electron app and the react dev application.
+[http://localhost:3000](http://localhost:3000) will open in your browser, ignore this and wait for the electron app to open.
+
+Auto reloading will happen in the electron app and you can open the devtools by navigating to `edit` in the app bar.
+
 ### `npm start`
 
 Runs the app in the development mode.<br>

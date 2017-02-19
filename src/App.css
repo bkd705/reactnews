@@ -1,0 +1,5 @@
+.titlebar {
+  height: 25px;
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+}

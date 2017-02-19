@@ -1,7 +1,7 @@
 import React from 'react'
-import ArticleList from './List'
+import ArticleList from './components/List'
 
-class ArticleContainer extends React.Component {
+class Articles extends React.Component {
   render() {
     return (
       <div className="article-container">
@@ -11,4 +11,4 @@ class ArticleContainer extends React.Component {
   }
 }
 
-export default ArticleContainer
+export default Articles

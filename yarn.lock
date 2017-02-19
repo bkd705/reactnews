@@ -1749,6 +1749,10 @@ electron-download@^3.0.1:
     semver "^5.3.0"
     sumchecker "^1.2.0"
 
+electron-titlebar@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/electron-titlebar/-/electron-titlebar-0.0.3.tgz#ee6bc83e3a80eb7030da6cd51c3563f4851766be"
+
 electron-to-chromium@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.2.2.tgz#e41bc9488c88e3cfa1e94bde28e8420d7d47c47c"

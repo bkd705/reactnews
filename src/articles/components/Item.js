@@ -1,4 +1,5 @@
 import React from 'react'
+import truncate from 'lodash/truncate'
 
 const ArticleItem = ({ article }) => {
 
@@ -6,9 +7,17 @@ const ArticleItem = ({ article }) => {
     console.log('Clicked')
   }
   return (
-    <div className="article-item" onClick={onClick}>
-      <p>{article.title}</p>
-    </div>
+    <a href="">
+      <div className="article-item">
+        <h3>{article.title}</h3>
+        <div className="meta">
+          <p>{article.author}</p>
+        </div>
+        <div className="content">
+          <p>{truncate(article.abstract, { 'length': 140 })}</p>
+        </div>
+      </div>
+    </a>
   )
 }
 

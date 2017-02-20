@@ -7,7 +7,7 @@ const propArticles = [
   {
     title: 'Test Article',
     author: 'Brennen Denomme',
-    abstract: 'This is a paragraph of abstract text, depending on the API source this may be reddits self text or the first paragraph of another API',
+    abstract: 'This is a paragraph of abstract text, depending on the API source this may be reddits self text or the first paragraph of another API, This is a paragraph of abstract text, depending on the API source this may be reddits self text or the first paragraph of another API',
     link: 'http://google.com',
     hasInteraction: true,
     interactionType: 'star',
@@ -16,9 +16,9 @@ const propArticles = [
     comments: []
   },
   {
-    title: 'Test Article 2',
+    title: 'Test Article',
     author: 'Brennen Denomme',
-    abstract: 'This is a paragraph of abstract text, depending on the API source this may be reddits self text or the first paragraph of another API',
+    abstract: 'This is a paragraph of abstract text, depending on the API source this may be reddits self text or the first paragraph of another API, This is a paragraph of abstract text, depending on the API source this may be reddits self text or the first paragraph of another API',
     link: 'http://google.com',
     hasInteraction: true,
     interactionType: 'star',
